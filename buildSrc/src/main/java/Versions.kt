@@ -1,16 +1,16 @@
 package dependencies
 
 object Versions {
-    val gradle = "3.5.3"
-    val compilesdk = 29
+    val gradle = "7.2.0"
+    val compilesdk = 30
     val minsdk = 21
-    val targetsdk = 29
-    val kotlin = "1.3.61"
+    val targetsdk = 30
+    val kotlin = "1.4.20"
     val ktx = "1.2.0"
     val dagger = "2.25.4"
     val nav_components = "2.3.0-alpha06"
     val material_dialogs = "3.2.1"
-    val room = "2.1.0"
+    val room = "2.2.6"
     val appcompat = "1.1.0-rc01"
     val constraintlayout = "1.1.3"
     val material_design = "1.1.0"
@@ -36,5 +36,5 @@ object Versions {
     val junit_4_version = "4.12"
     val fragment_version = "1.2.0"
     val androidx_test_ext = "1.1.1"
-    val crashlytics_gradle = "2.1.0"
+    val crashlytics_gradle = "2.9.0"
 }

@@ -1,5 +1,6 @@
 package com.codingwithmitch.cleannotes.framework.datasource.network
 
+import android.provider.Telephony.Carriers.PASSWORD
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
 import com.codingwithmitch.cleannotes.BaseTest
 import com.codingwithmitch.cleannotes.business.domain.model.Note
@@ -241,8 +242,10 @@ class NoteFirestoreServiceTests: BaseTest(){
     }
 
     companion object{
-        const val EMAIL = "mitchtest@tabian.ca"
-        const val PASSWORD = "password"
+        /*const val EMAIL = "mitchtest@tabian.ca"
+        const val PASSWORD = "password"*/
+        const val USER_ID = "LhjNMiuASBODgVrGeLcbsFFtDsr2" // hardcoded for single user
+        const val EMAIL = "rfrench2test2@gmail.com"
     }
 
 

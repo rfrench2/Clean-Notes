@@ -57,6 +57,9 @@ constructor(
                                 printLogD("MainActivity",
                                     "Signing in to Firebase: ${it.result}")
                                 subscribeObservers()
+                            } else {
+                                printLogD("MainActivity",
+                                    "Signing in to Firebase error: ${it.result}")
                             }
                         }
                 }

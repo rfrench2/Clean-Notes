@@ -202,8 +202,10 @@ constructor(
         const val NOTES_COLLECTION = "notes"
         const val USERS_COLLECTION = "users"
         const val DELETES_COLLECTION = "deletes"
-        const val USER_ID = "9E7fDYAUTNUPFirw4R28NhBZE1u1" // hardcoded for single user
-        const val EMAIL = "mitch@tabian.ca"
+        /*const val USER_ID = "9E7fDYAUTNUPFirw4R28NhBZE1u1" // hardcoded for single user
+        const val EMAIL = "mitch@tabian.ca"*/
+        const val USER_ID = "LhjNMiuASBODgVrGeLcbsFFtDsr2" // hardcoded for single user
+        const val EMAIL = "rfrench2test2@gmail.com"
     }
 
 

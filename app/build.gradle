@@ -12,7 +12,7 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
 
-apply plugin: 'com.google.firebase.crashlytics'
+// apply plugin: 'com.google.firebase.crashlytics'
 
 apply plugin: 'com.google.gms.google-services'
 
@@ -82,12 +82,15 @@ dependencies {
     implementation Dependencies.markdown_processor
     implementation Dependencies.retrofit
     implementation Dependencies.retrofit_gson
+
+    implementation platform("com.google.firebase:firebase-bom:${Versions.firebase_bom_version}")
     implementation Dependencies.firebase_firestore
     implementation Dependencies.firebase_auth
-    implementation Dependencies.kotlin_coroutines_play_services
     implementation Dependencies.firebase_analytics
     implementation Dependencies.firebase_crashlytics
+
     implementation AndroidTestDependencies.idling_resource
+    implementation Dependencies.kotlin_coroutines_play_services
 
     implementation SupportDependencies.swipe_refresh_layout
     implementation SupportDependencies.appcompat

@@ -8,6 +8,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()  // Maven Central repository
     }
     dependencies {
         classpath Build.build_tools
@@ -21,7 +22,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-
+        mavenCentral()  // Maven Central repository
     }
 }
 

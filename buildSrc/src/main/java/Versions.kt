@@ -5,12 +5,15 @@ object Versions {
     val compilesdk = 31
     val minsdk = 21
     val targetsdk = 30
-    val kotlin = "1.4.20"
+    // val kotlin = "1.4.20"
+    val kotlin = "1.6.0"
     val ktx = "1.2.0"
     val dagger = "2.25.4"
     val nav_components = "2.3.0-alpha06"
     val material_dialogs = "3.2.1"
-    val room = "2.2.6"
+    // val room = "2.2.6"
+    val room =  "2.4.2"
+    val room_coroutines =  "2.1.0-alpha04"
     val appcompat = "1.1.0-rc01"
     val constraintlayout = "1.1.3"
     val material_design = "1.1.0"
@@ -21,7 +24,7 @@ object Versions {
 
     val firebase_bom_version = "30.3.1"
     // val firebase_firestore = "21.4.2"
-    // val firebase_analytics = "17.4.1"
+    val firebase_analytics = "17.3.0"
     // val firebase_crashlytics = "17.0.0"
     // val firebase_auth = "19.3.0"
 

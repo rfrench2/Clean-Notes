@@ -244,7 +244,7 @@ class NoteFirestoreServiceTests: BaseTest(){
     companion object{
         /*const val EMAIL = "mitchtest@tabian.ca"
         const val PASSWORD = "password"*/
-        const val USER_ID = "LhjNMiuASBODgVrGeLcbsFFtDsr2" // hardcoded for single user
+        const val USER_ID = "vFiKf8j5mIXBQsaCIQgsHdXcuE83" // hardcoded for single user
         const val EMAIL = "rfrench2test2@gmail.com"
     }
 

@@ -1,6 +1,9 @@
 package com.codingwithmitch.cleannotes.framework.datasource.cache.database
 
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import com.codingwithmitch.cleannotes.framework.datasource.cache.model.NoteCacheEntity
 
 const val NOTE_ORDER_ASC: String = ""

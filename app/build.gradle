@@ -18,6 +18,7 @@ apply plugin: 'com.google.gms.google-services'
 
 
 android {
+    namespace Application.id
     compileSdkVersion Versions.compilesdk
     defaultConfig {
         applicationId Application.id

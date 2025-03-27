@@ -1,11 +1,17 @@
 package dependencies
 
 object Versions {
-    val gradle = "3.5.3"
-    val compilesdk = 29
+    // val gradle = "3.5.3"
+    val gradle = "8.2.1"
+    // val compilesdk = 29
+    val compilesdk = 31
+    // val minsdk = 21
     val minsdk = 21
-    val targetsdk = 29
-    val kotlin = "1.3.61"
+    // val targetsdk = 29
+    val targetsdk = 30
+    // val kotlin = "1.3.61"
+    // val kotlin = "1.6.0"
+    val kotlin = "1.6.20"
     val ktx = "1.2.0"
     val dagger = "2.25.4"
     val nav_components = "2.3.0-alpha06"
